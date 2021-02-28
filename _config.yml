@@ -1,0 +1,46 @@
+url: "https://wip-italia.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+lang: "it_IT"
+name: "WIP s.r.l."
+email: info@wip-italia.com
+title: "WIP" # the name of your site, e.g. ACME Corp.
+tagline: "Abbigliamento, attrezzatura da lavoro e dispositivi di protezione individuale"
+description: "Abbigliamento antinfortunistico - Alta visibilità e calzature da lavoro - Dispositivi di protezione individuale per la sicurezza nel lavoro - Segnaletica stradale ed aziendale - Realizzazione banner in PVC e Rete Mesh Grandi Formati - Abbigliamento per la vigilanza - Abbigliamento alberghiero e per ristorazione - Revisione DPI e Anticaduta"
+logo: '/assets/logos/wip.svg'
+# social:
+#   name: WIP srl
+#   links:
+#     - https://twitter.com/BenBalter
+#     - https://www.facebook.com/ben.balter
+#     - https://www.linkedin.com/in/BenBalter
+#     - https://github.com/benbalter
+#     - https://keybase.io/benbalter
+
+# webmaster_verifications:
+#   google: 1234
+#   bing: 1234
+#   alexa: 1234
+#   yandex: 1234
+#   baidu: 1234
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+permalink: /:title/
+
+collections:
+  pages:
+    output: true
+    permalink: :title
+  posts:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"

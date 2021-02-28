@@ -1,0 +1,11 @@
+<nav>
+    <ul>
+        <li><a href="/">Login</a></li>
+        {% assign items = site.pages | where: "nav", true | sort: 'index' | reverse %}
+        {% for item in items %}
+        <li><a {% if item.url != page.url %}href="{{item.url}}"{% endif %}>{{item.title}}</a></li>
+        {% endfor %}
+        <!-- <li><a href="/">Home</a></li> -->
+    </ul>
+</nav>
+
