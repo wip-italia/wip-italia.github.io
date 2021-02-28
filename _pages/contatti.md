@@ -1,7 +1,7 @@
 ---
 title: Contatti
 description: Scriveteci, sarete ricontattati al più presto
-image: https://source.unsplash.com/1200x200/?phone,business
+image: https://via.placeholder.com/1200x200
 home: true
 nav: true
 foot: true

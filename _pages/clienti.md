@@ -1,7 +1,7 @@
 ---
 title: Clienti
 description: Offriamo mediante l’accesso ai nostri servizi la garanzia di essere sempre aggiornati
-image: https://source.unsplash.com/1200x200/?building,business
+image: https://via.placeholder.com/1200x200
 home: true
 nav: false
 foot: false
