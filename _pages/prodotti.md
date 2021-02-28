@@ -1,7 +1,7 @@
 ---
 title: Prodotti
 description: L'obiettivo principale della nostra azienda è quello di offrire al cliente tutto ciò di cui ha bisogno, potendo contare sulla nostra professionalità e competenza.
-image: https://via.placeholder.com/1200x200
+image: https://via.placeholder.com/2560x360
 home: true
 nav: true
 foot: false

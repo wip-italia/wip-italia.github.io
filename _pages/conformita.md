@@ -1,7 +1,7 @@
 ---
 title: Conformità
 description: Le nostre dichiarazioni di conformità
-image: https://via.placeholder.com/1200x200
+image: https://via.placeholder.com/2560x360
 home: false
 nav: true
 foot: false
