@@ -1,7 +1,7 @@
 ---
 title: Contatti
 description: Scriveteci, sarete ricontattati al più presto
-image: https://via.placeholder.com/2560x360
+image: /assets/images/04.jpg
 home: true
 nav: true
 foot: true

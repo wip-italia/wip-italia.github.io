@@ -2,11 +2,17 @@
 layout: default
 title: "Benvenuto in WIP"
 description: "Noi Vogliamo per te: Sicurezza, Affidabilità e Qualità"
-image:
+image: /assets/images/01.jpg
 ---
-<h1>{{page.title}}</h1>
-<p>{{page.description}}</p>
-<button onclick="location.href='/prodotti/'" type="button">Scopri i nostri prodotti</button>
+<header class="welcome hero background" style="background-image: url({{page.image}});">
+    <div>
+        <h1>{{page.title}}</h1>
+        <p>{{page.description}}</p>
+        <button onclick="location.href='/prodotti/'" type="button">Scopri i nostri prodotti</button>
+    </div>
+</header>
+
+
 
 {% assign sections = site.pages | where: "home", true | sort: 'index' %}
 {%for section in sections %}

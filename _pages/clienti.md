@@ -1,7 +1,7 @@
 ---
 title: Clienti
 description: Offriamo mediante l’accesso ai nostri servizi la garanzia di essere sempre aggiornati
-image: https://via.placeholder.com/2560x360
+image: /assets/images/02.jpg
 home: true
 nav: false
 foot: false

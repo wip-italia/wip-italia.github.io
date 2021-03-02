@@ -1,7 +1,7 @@
 ---
 title: Chi Siamo
 description: Da sempre impegnati nella protezione individuale dei lavoratori e nella valorizzazione della sicurezza nei luoghi di lavoro.
-image: https://via.placeholder.com/2560x360
+image: /assets/images/01.jpg
 home: true
 nav: true
 foot: false
