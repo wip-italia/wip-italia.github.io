@@ -1,0 +1,15 @@
+<div class="col-md-4 mb-5 mb-md-0">
+  <div class="footer-widget">
+      <h2 class="widget-title">Menu</h2>
+      <ul class="widget-menu mt-4">
+
+          <li><a href="/">Home</a></li>
+
+          {% assign items = site.pages | where: "foot", true | sort: 'index' %}
+          {% for item in items %}
+          <li><a {% if item.url != page.url %}href="{{item.url}}" {% endif %}>{{item.title}}</a></li>
+          {% endfor %}
+
+      </ul>
+  </div>
+</div>

@@ -1,19 +1,25 @@
 - name: "Abbigliamento"
   link: "https://www.wip-italia.com/catalogo/abbigliamento/abbigliamento.html"
-  icon: "/assets/icons/abbigliamento.svg"
+  icon: "/assets/images/rulers_icon.png"
+  description: We aim to eliminate the task of dividing your project between different architecture and construction company we are a company that offers design and build.
 - name: "Calzature ed Accessori"
   link: "https://www.wip-italia.com/catalogo/calzature/calzature.html"
-  icon: "/assets/icons/calzature.svg"
+  icon: "/assets/images/rulers_icon.png"
+  description: We aim to eliminate the task of dividing your project between different architecture and construction company we are a company that offers design and build.
 - name: "Alta Visibilità"
   link: "https://www.wip-italia.com/catalogo/alta_visibilita/alta_visibilita.html"
-  icon: "/assets/icons/visibilita.svg"
+  icon: "/assets/images/rulers_icon.png"
+  description: We aim to eliminate the task of dividing your project between different architecture and construction company we are a company that offers design and build.
 - name: "Alberghiero e Medical"
   link: "https://www.wip-italia.com/catalogo/ALBERGHIERO_E_MEDICAL_web/ALBERGHIERO_E_MEDICAL_web.html"
-  icon: "/assets/icons/medical.svg"
+  icon: "/assets/images/rulers_icon.png"
+  description: We aim to eliminate the task of dividing your project between different architecture and construction company we are a company that offers design and build.
 - name: "Dispositivi di sicurezza"
   link: "https://www.wip-italia.com/catalogo/dpi/dpi.html"
-  icon: "/assets/icons/dpi.svg"
+  icon: "/assets/images/rulers_icon.png"
+  description: We aim to eliminate the task of dividing your project between different architecture and construction company we are a company that offers design and build.
 - name: "Segnaletica"
   link: "https://www.wip-italia.com/catalogo/segnaletica_da_cantiere/segnaletica_da_cantiere.html"
-  icon: "/assets/icons/segnaletica.svg"
+  icon: "/assets/images/rulers_icon.png"
+  description: We aim to eliminate the task of dividing your project between different architecture and construction company we are a company that offers design and build.
     

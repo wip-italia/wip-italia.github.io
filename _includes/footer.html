@@ -1,17 +1,46 @@
-<footer class="footer">
-    <div class="row">
-        <address>
-            <a href="mailto:info@wip-italia.com ">info@wip-italia.com </a><br>
-            <a href="tel:778-330-2389">778-330-2389</a><br>
-            <a href="sms:666-666-6666">666-666-6666</a><br>
-        </address>
-        <a href="#">Torna in cima ⬆</a>
-    </div>
-    <small>
-        W.I.P. SRL <br>
-        Sede Legale: VIALE PARIOLI, 12 00197 Roma <br>
-        Sede Operativa VIA LICIO GIORGIERI, 99 00165 Roma <br>
-        P.I. e C.F. 12118681001<br>
-    </small>
-</footer>
+<!-- Start Footer -->
+<footer class="semi-hover-4">
+    <div class="footer-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 semi-hover-5 ptb-100 text-center">
+                    <div class="footer-big-widget">
+                        <a href="/"><img src="{{site.logo}}" alt="{{site.title}}" style="max-height: 50px;
+                                class=" img-fluid" /></a>
+                        <div class="contact-number py-5">
+                            <span>RESTA IN CONTATTO</span>
+                            <h2>
+                                <a href="tel:{{site.data.contatti.telefono}}">
+                                    {{site.data.contatti.telefono}}
+                                </a>
+                            </h2>
+                        </div>
+                        <div class="social-profiles">
+                            <ul>
+                                {% for social in site.data.socials %}
+                                <li>
+                                    <a href="{{social.url}}"><i class="fab {{social.icon}}"></i></a>
+                                </li>
+                                {% endfor %}
 
+                            </ul>
+                        </div>
+
+                        <div class="copyright-text mt-5" style="text-decoration: none;">
+                            <p>{{site.time | date: '%Y'}} &copy; {{site.title}}.
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 ptb-100">
+                    <div class="row">
+
+                        {% include footer/menu.html %}
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- End Footer -->

@@ -1,0 +1,12 @@
+- name: facebook
+  url: https://facebook.com/wip
+  icon: fa-facebook-f
+- name: twitter
+  url: https://twitter.com/wip
+  icon: fa-twitter
+- name: linkedin
+  url: https://linkedin.com/wip
+  icon: fa-linkedin-in
+- name: instagram
+  url: https://instagram.com/wip
+  icon: fa-instagram

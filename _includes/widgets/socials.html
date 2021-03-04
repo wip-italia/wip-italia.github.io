@@ -1,0 +1,14 @@
+<!-- Start Social Widget -->
+<div class="social-widget mb-5 border p-4">
+  <h2 class="widget-title-2">Account Social <span class="light-comma"></span></h2>
+  <ul class="mt-4">
+      
+    {% for social in site.data.socials %}
+    <li class="">
+        <a href="{{social.url}}" target="_blank"><i class="fab {{social.icon}}"></i></a>
+    </li>
+    {% endfor %}
+      
+  </ul>
+</div>
+<!-- End Social Widget -->

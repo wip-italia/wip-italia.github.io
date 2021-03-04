@@ -1,0 +1,40 @@
+<!-- Start Services Area 2 -->
+
+<section class="bg-semi-white section-ptb">
+    <div class="services-area">
+        <div class="container">
+            <div class="row inner-pb">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2 class="heading-2">Our Services <span class="light-comma"></span></h2>
+                    </div>
+                </div>
+            </div>
+
+
+            {% assign cataloghi = site.data.cataloghi | sort:'name' %}
+            {% for catalogo in cataloghi %}
+            {% if forloop.first %}
+            <div class="row">
+            {% endif %}
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="single-service bg-white p-4">
+                        <div class="icon-container mb-4">
+                            <img src="{{catalogo.icon}}" alt="Design And Build" class="img-fluid" />
+                        </div>
+                        <div class="service-info">
+                            <h3 class="heading-3">{{catalogo.name}}</h3>
+                            <p class="my-4">{{catalogo.description}}</p>
+                            <a href="{{catalogo.link}}" class="read-more-btn">Sfoglia</a>
+                        </div>
+                    </div>
+                </div>
+            {% if foreloop.last %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+
+
+<!-- End Services Area 2 -->

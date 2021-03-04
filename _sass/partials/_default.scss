@@ -1,0 +1,658 @@
+@import "./media_query";
+@import "./variables";
+
+
+/****************************
+Headings
+*******************************/
+.heading-one-alt {
+	color: $hover_2;
+	font-size: 4rem;
+	font-weight: 600;
+	@include desktop {
+		font-size: 3.5rem;
+	}
+	@include tablet {
+		font-size: 3rem;
+	}
+	@include mobile {
+		font-size: 2.5rem;
+	}
+}
+.big-heading {
+	font-size: 9rem;
+	font-weight: 800;
+	@include xl_large_2 {
+		font-size: 7.5rem;
+	}
+	@include desktop {
+		font-size: 6.5rem;
+	}
+	@include tablet {
+		font-size: 4.5rem;
+	}
+	@include mobile {
+		font-size: 3.5rem;
+	}
+}
+.sub-title {
+	font-size: 28px;
+	line-height: 1.6em;
+	margin-bottom: 0;
+	margin-bottom: 0;
+	@include desktop {
+		font-size: 22px;
+	}
+	@include tablet {
+		font-size: 18px;
+	}
+}
+.heading-2 {
+	color: $semi_hover;
+	font-size: 45px;
+	font-weight: 600;
+	margin-bottom: 0;
+	span {
+		color: $semi_hover_3;
+	}
+	@include desktop {
+		font-size: 35px;
+	}
+	@include tablet {
+		font-size: 35px;
+	}
+	@include mobile {
+		font-size: 35px;
+	}
+}
+.heading-3 {
+   font-size: 28px;
+   color: $semi_hover;
+   font-weight: 600;
+   margin-bottom: 0;
+   @include desktop {
+   	font-size: 25px;
+   }
+   @include tablet {
+   	font-size: 22px;
+   }
+   @include mobile {
+   	font-size: 22px;
+   }
+}
+.heading-4 {
+	margin-bottom: 0;
+	color: $semi_hover;
+	font-size: 24px;
+	font-weight: 600;
+	@include desktop {
+		font-size: 22px;
+	}
+	@include tablet {
+		font-size: 20px;
+	}
+	@include mobile {
+		font-size: 20px;
+	}
+	a {
+		color: $semi_hover;
+		transition: all .4s linear 0s;
+		text-decoration: none;
+		&:hover {
+			text-decoration: none;
+			color: rgba($semi_hover_2,1);
+		}
+	}
+}
+.heading-alt-2 {
+	font-size: 4.5rem;
+	color: $semi_hover;
+	font-weight: 600;
+	@include desktop {
+		font-size: 3.5rem;
+	}
+	@include tablet {
+		font-size: 3rem;
+	}
+	@include mobile {
+		font-size: 2.5rem;
+	}
+}
+.sub-title-2 {
+	font-size: 28px;
+	line-height: 1.3em;
+	margin-bottom: 0;
+	color: $semi_hover;
+	@include desktop {
+		font-size: 24px;
+	}
+	@include tablet {
+		font-size: 22px;
+	}
+	@include mobile {
+		font-size: 20px;
+	}
+}
+.sub-title-3 {
+	font-size: 18px;
+	font-weight: 300;
+	color: $semi_hover;
+	text-transform: uppercase;
+	font-family: $font_2;
+	letter-spacing: 5px;
+}
+.special-heading {
+	font-size: 35px;
+	color: $semi_hover;
+	font-weight: 400;
+	margin-bottom: 0;
+	span {
+		color: $hover;
+		font-weight: 500;
+	}
+}
+.big-heading-2 {
+	font-size: 5rem;
+	color: $white;
+	font-weight: 600;
+	@include large_2 {
+		font-size: 4rem;
+	}
+	@include desktop {
+		font-size: 4rem;
+	}
+	@include tablet {
+		font-size: 3.5rem;
+	}
+	@include mobile {
+		font-size: 2.5rem;
+	}
+
+}
+.heading-6 {
+	font-size: 18px;
+	color: $semi_hover;
+	font-weight: 500;
+}
+.heading-5-alt {
+  font-size: 24px;
+  margin-bottom: 0;
+  a {
+  	color: $default_color;
+  	text-decoration: none;
+  }
+	@include desktop {
+		font-size: 20px;
+	}
+	@include tablet {
+		font-size: 18px;
+	}
+	@include mobile {
+		font-size: 16px;
+	}
+}
+.widget-title {
+	position: relative;
+	font-size: 28px;
+	font-weight: 500;
+	color: $white;
+	padding-bottom: 15px;
+	@include desktop {
+		font-size: 22px;
+	}
+	@include tablet {
+		font-size: 22px;
+	}
+	@include mobile {
+		font-size: 22px;
+	}
+	&:before {
+		content: "";
+		position: absolute;
+		width: 45px;
+		height: 3px;
+		background-color: $semi_hover_3;
+		bottom: 0;
+		left: 0;
+	}
+}
+.widget-title-2 {
+	position: relative;
+	font-size: 28px;
+	font-weight: 600;
+	color: $semi_hover;
+	padding-bottom: 15px;
+	&:after {
+		content: "";
+		position: absolute;
+		width: 100%;
+		height: 1px;
+		background-color: $dark_9;
+		bottom: 0;
+		left: 0;
+	}
+}
+.widget-title-3 {
+	position: relative;
+	font-size: 28px;
+	font-weight: 600;
+	color: $semi_hover;
+}
+.read-more-btn {
+	color: $semi_hover;
+	font-size: 1rem;
+	font-weight: 500;
+	transition: all .4s linear 0s;
+	text-decoration: none;
+	i {
+		color: $semi_hover_2;
+	}
+	&:hover {
+		color: $semi_hover_2;
+		text-decoration: none;
+	}
+	span {
+		margin-left: 10px;
+	}
+}
+/**********************
+Buttons
+*************************/
+
+.custom-big-btn {
+	display: inline-block;
+	color: $white_2;
+	font-family: $default_font;
+	background-color: $hover_2;
+	padding: 15px 20px;
+	border: 0;
+	text-decoration: none;
+	@include xl_large_2 {
+		padding: 12px 14px;
+		font-size: .9rem;
+	}
+   span {
+	display: inline-block;
+	font-size: 20px;
+	border-left: 2px solid $semi_hover_2;
+	margin-left: 10px;
+	padding-left: 15px;
+	@include xl_large_2 {
+		display: none;
+	  }
+	}
+	&:hover {
+		color: $dark_8;
+		text-decoration: none;
+	}
+	&:focus {
+		outline: 0;
+		box-shadow: none;
+	}
+}
+.custom-btn {
+	display: inline-block;
+	background-color: $hover;
+	color: $white;
+	border: 0;
+	padding: 15px 40px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/****************************
+ height
+*****************************/
+.height-500 {
+	height: 500px;
+}
+.height-700 {
+	height: 700px;
+}
+.bg-semi {
+	background-color: $semi_hover;
+}
+
+/*****************************************
+Padding
+******************************************/
+
+.pl-170 {
+	padding-left: 170px;
+}
+.light-comma:after {
+  content: ".";
+  color: $semi_hover_3;
+}
+.section-ptb {
+	padding-top: 150px;
+	padding-bottom: 150px;
+	@include desktop {
+		padding-top: 80px;
+	    padding-bottom: 80px;
+	}
+	@include tablet {
+		padding-top: 80px;
+	    padding-bottom: 80px;
+	}
+	@include mobile {
+		padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+}
+.section-pb {
+   padding-bottom: 150px;
+	@include desktop {
+	    padding-bottom: 80px;
+	}
+	@include tablet {
+	    padding-bottom: 80px;
+	}
+	@include mobile {
+	    padding-bottom: 60px;
+	}
+}
+.inner-pb {
+	padding-bottom: 80px;
+	@include desktop {
+	    padding-bottom: 50px;
+	}
+	@include tablet {
+	    padding-bottom: 40px;
+	}
+	@include mobile {
+	    padding-bottom: 35px;
+	}
+}
+
+.inner-pt {
+	padding-top: 80px;
+	@include desktop {
+		padding-top: 50px;
+	}
+	@include tablet {
+		padding-top: 40px;
+	}
+	@include mobile {
+		padding-top: 35px;
+	}
+}
+.inner-ptb {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	@include desktop {
+		padding-top: 50px;
+	    padding-bottom: 50px;
+	}
+	@include tablet {
+		padding-top: 40px;
+	    padding-bottom: 40px;
+	}
+	@include mobile {
+		padding-top: 35px;
+	    padding-bottom: 35px;
+	}
+}
+.ptb-100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+		@include desktop {
+		padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	@include tablet {
+		padding-top: 60px;
+	    padding-bottom: 60px;
+	}
+	@include mobile {
+		padding-top: 65px;
+	    padding-bottom: 50px;
+	}
+}
+.pr-100 {
+	padding-right: 100px;
+}
+.pb-100 {
+	padding-bottom: 100px;
+}
+.mb-xs-5 {
+	@include tablet {
+		margin-bottom: 3rem;
+	}
+}
+.mb-xs-4 {
+	@include tablet {
+		margin-bottom: 2rem;
+	}
+}
+/******************************
+Background
+******************************/
+.bg-hover {
+	background-color: $hover;
+}
+.bg-semi-white {
+	background-color: $white_2;
+}
+.semi-hover-4 {
+	background-color: $semi_hover_4;
+}
+.semi-hover-3 {
+	background-color: $semi_hover_3;
+}
+.semi-hover-5 {
+	background-color: $semi_hover_5;
+}
+.black-overlay {
+	position: relative;
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(255,255,255,.45);
+	}
+}
+/******************
+List Styles
+*******************/
+.social-profiles {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			background-color: $semi_hover_4;
+			color: $white;
+			border-radius: 50%;
+			line-height: 40px;
+			margin: 0 5px;
+			transition: all .4s linear 0s;
+			text-align: center;
+			a {
+				display: block;
+				color: $white;
+			}
+			&.active {
+				background-color: $semi_hover_3;
+			}
+			&:hover {
+				background-color: $semi_hover_3;
+			}
+		}
+	}
+}
+.social-profiles-2 {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			width: 40px;
+			height: 40px;
+			background-color: tranaparent;
+			border-radius: 50%;
+			line-height: 40px;
+			margin: 0 5px;
+			transition: all .4s linear 0s;
+			text-align: center;
+			a {
+				display: block;
+				color: #aaaaaa;
+			}
+			&.active {
+				background-color: $semi_hover_3;
+				a {
+					color: $white;
+				}
+			}
+			&:hover {
+				background-color: $semi_hover_3;
+				a {
+					color: $white;
+				}
+			}
+		}
+	}
+}
+.social-profiles-3 {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			height: 20px;
+			line-height: 20px;
+			margin: 0 5px;
+			transition: all .4s linear 0s;
+			text-align: center;
+			a {
+				display: block;
+				color: #aaaaaa;
+			}
+			&.active {
+				a {
+					color: $semi_hover_2;
+				}
+			}
+			&:hover {
+				a {
+					color: $semi_hover_2;
+				}
+			}
+		}
+	}
+}
+.list-2 {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			padding-bottom: 10px;
+			&:last-child {
+				padding-bottom: 0;
+			}
+			span {
+				color: #fd8136;
+				padding-right: 10px;
+			}
+		}
+	}
+}
+.special-list {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		li {
+			display: flex;
+			padding-bottom: 10px;
+			&:last-child {
+				padding-bottom: 0;
+			}
+			b {
+				color: $semi_hover;
+				padding-right: 5px;
+			}
+			span {
+               i {
+               	color: $semi_hover_3;
+				padding-right: 10px;
+				font-size: 12px;
+               }
+			}
+		}
+	}
+}
+
+/*********************
+colors
+************************/
+
+.active-border {
+	border-color: $hover !important;
+}
+
+/*****************************
+Borders
+*******************************/
+
+.dotted-border-bottom {
+	border-bottom: 1px dashed #5f727f;
+}
+.border-bottom-dark {
+	border-bottom: 1px solid #d5d5d5
+}
+.special-lg-border {
+	@include large {
+		border-top: 1px;
+		border-bottom: 1px;
+		border-right: 1px;
+		border-color: $dark_8;
+		border-style: solid;
+		border-left: 0;
+	}
+}
+.border-bottom-light {
+	border-bottom: 1px solid #febd96;
+}
+.border-radius-0 {
+	border-radius: 0;
+}
+/**********************
+quote
+***********************/
+
+.blockquote-2 {
+	p {
+		margin-bottom: 0;
+		font-size: 28px;
+		color: $semi_hover;
+		line-height: 1.4em;
+		background-color: $semi_white;
+		border: 1px solid $dark_8;
+		padding: 2.5rem;
+        margin: 1.5rem 0;
+        @include desktop {
+        	font-size: 25px;
+        	padding: 2rem;
+        }
+        @include tablet {
+        	font-size: 22px;
+        	padding: 1.6rem;
+        }
+        @include mobile {
+        	font-size: 20px;
+        	padding: 1.3rem;
+        }
+	}
+}

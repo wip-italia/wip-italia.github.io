@@ -1,0 +1,88 @@
+<div class="page-wrapper section-ptb">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 mb-5 pb-4 mb-lg-0 pb-lg-0">
+        <aside>
+          <div class="sidebar-wrapper">
+            {% include widgets/socials.html %}
+            {% include widgets/contact-info.html %}
+          </div>
+        </aside>
+      </div>
+      <!-- Start Page Content -->
+      <div class="col-lg-8">
+        <div class="page-content">
+
+          <h2 class="heading-2 mb-3">Su di noi</h2>
+          <p>La società è stata fondata con l'intento di soddisfare tutte le esigenze della sua clientela. L'obiettivo
+            principale della nostra azienda è quello di offrire al cliente tutto quello di cui ha bisogno, potendo
+            contare sulla nostra professionalità e competenza. La W.I.P. srl è una società, che possiede una struttura
+            operativa altamente qualificata, dinamica e affidabile.</p>
+          <p>Nell'attuale scenario economico, l'abbigliamento e le attrezzature per il lavoro sono diventati simbolo di
+            immagine dell'impresa e della sua responsabilità in materia di sicurezza sul lavoro, uno strumento
+            attraverso il quale distinguersi e caratterizzare la propria professionalità.</p>
+
+          <p>Grazie ad un controllo qualità indirizzato a tutta la filiera, lavorazione - personalizzazione - consegna,
+            la nostra società è in grado di garantire al cliente un servizio completo. I nostri collaboratori hanno una
+            esperienza trentennale, collaboratori altamente specializzati e continuamente aggiornati su nuovi prodotti.
+            Una struttura logistica che si pone a servizio della committenza e della sezione operativa per ottimizzare
+            le fasi esecutive.</p>
+
+          <!-- <div class="page-thumb mb-3">
+            <img src="/assets/images/page_thumb_01.jpg" alt="Painting Services" class="img-fluid">
+          </div>
+
+          <div class="row">
+
+            <div class="col">
+              <img src="/assets/images/half_thumb_01.jpg" alt="Painting Services" class="img-fluid">
+            </div>
+
+
+            <div class="col">
+              <img src="/assets/images/half_thumb_02.jpg" alt="Painting Services" class="img-fluid">
+            </div>
+
+          </div> -->
+
+          <h2 class="heading-2 mb-3"> Valore Aggiunto</h2>
+          <p>Come valore aggiunto rispetto ai nostri competitor offriamo ai nostri clienti una piattaforma informatica
+            dedicata, che funziona da cruscotto di controllo per l’ufficio acquisti, mediante la quale vengono messi a
+            disposizione del controllo di gestione importanti dati per la valutazione dell’efficienza.</p>
+
+          <p>La capacità di adattare la piattaforma ai sistemi e ai processi dei nostri clienti, migliorando
+            l’efficienza e riducendo i costi, ci pone come un partner potenzialmente strategico nella soddisfazione di
+            un’esigenza quanto mai attuale nello scenario del mercato nel nostro Paese.</p>
+
+          <div class="tabs-container custom-tabs-wrapper">
+
+            <h2 class="widget-title-3 my-4">La Nostra Visione <span class="light-comma"></span></h2>
+
+            <div class="accordion" id="faqAccordion">
+
+              {% for vision in site.data.vision %}
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="heading_{{forloop.index}}">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse_{{forloop.index}}" aria-expanded="false" aria-controls="collapse_{{forloop.index}}">
+                    <span>{{vision.name}}</span>
+                  </button>
+                </h2>
+                <div id="collapse_{{forloop.index}}" class="accordion-collapse collapse" data-bs-parent="#faqAccordion" style="">
+                  <div class="accordion-body">
+                    <p>{{vision.description}}
+                    </p>
+                  </div>
+                </div>
+              </div>        
+              {% endfor %}
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- End Page Content -->
+    </div>
+  </div>
+</div>
