@@ -10,4 +10,3 @@ map: https://maps.google.com/maps?q=university%20of%20san%20francisco&t=&z=13&ie
 ---
 {% include components/contact-form.html%}
 {% include components/google-maps.html%}
-{% include components/contact-info.html%}
